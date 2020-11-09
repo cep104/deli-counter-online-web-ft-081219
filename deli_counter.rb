@@ -10,7 +10,7 @@ def line(katz_deli)
     #current_line << " #{i}. #{name}" another way
     katz_deli.each_with_index do |name, i|
         #itterate over the line with .each_with_index
-        # current_line << " #{i+1}. #{name}" insert into current line
+         current_line << " #{i+1}. #{name}" #insert into current line
     end
     puts current_line 
 end
